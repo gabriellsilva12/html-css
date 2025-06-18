@@ -1,0 +1,50 @@
+@charset "UTF-8";  
+
+/*
+    em HTML é id  = em CSSé # (só pode um elemento)
+    em HTML é class = em CSS . (pode varios elementos)
+    spam: seletor especifico de uma frase
+*/
+
+body{
+    background-image: linear-gradient(rgba(182, 243, 159, 0.726),white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: aliceblue;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px;
+    border-radius: 15px;
+}
+h1{
+    color: rgb(115, 153, 101);
+}
+h1#pr{
+    text-align: center;
+    color:  rgb(115, 153, 101);
+    background-color:  rgba(182, 243, 159, 0.726);
+    border-radius: 20px;
+}
+h2{
+    background-color: rgba(111, 125, 111, 0.245);
+    ;
+    padding: 10px;
+    border-radius: 20px;
+}
+p{
+    text-indent: 20px;
+}
+
+.basico{
+
+    color: rgba(90, 111, 82, 0.726)
+    
+}
+.intermediario{
+    color: rgba(246, 255, 0, 0.86)
+}
+.avancado{
+    color: rgba(255, 43, 1, 0.726)
+}
